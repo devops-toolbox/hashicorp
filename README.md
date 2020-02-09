@@ -10,10 +10,10 @@ For binary / archive installer - see localbin role.
 Ansible galaxy:
 ---------------
 
-[https://galaxy.ansible.com/devops-toolbox.hashicorp](https://galaxy.ansible.com/devops-toolbox.hashicorp)
+[https://galaxy.ansible.com/devopstoolbox.hashicorp](https://galaxy.ansible.com/devopstoolbox.hashicorp)
 
 ```bash
-ansible-galaxy install devops-toolbox.hashicorp
+ansible-galaxy install devopstoolbox.hashicorp
 ```
 
 Requirements
@@ -46,7 +46,7 @@ Example Playbook
   tasks:
     - name: hashicorp is configured
       import_role:
-        name: devops-toolbox.hashicorp
+        name: devopstoolbox.hashicorp
       vars:
         hashicorp_vagrant_version: "2.2.6"
       tags: hashicorp
@@ -60,4 +60,4 @@ MIT
 Author Information
 ------------------
 
-- [Mihai Criveti](https://www.linkedin.com/in/devops-toolbox.)
+- [Mihai Criveti](https://www.linkedin.com/in/devopstoolbox.)
