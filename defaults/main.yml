@@ -1,0 +1,5 @@
+---
+# defaults file for hashicorp
+
+hashicorp_vagrant_version: "2.2.6"
+hashicorp_install_vagrant_libvirt_plugin: true
